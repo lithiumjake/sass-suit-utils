@@ -20,7 +20,7 @@ margins and exposes variables for theming.
 
 #### Configurable variables
 
-The following variables are set with with !default
+The following variables are set with !default
 
 * `$background-base`: the application background style.
 * `$color-base`: the root text color.
