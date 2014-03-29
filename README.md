@@ -41,4 +41,3 @@ A convenient way to include all SASS-SUIT utility modules
 * `u-block` - Display block.
 * `u-table` - Display table.
 * `u-tableCell` - Display table-cell.
-* 
