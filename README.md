@@ -132,7 +132,7 @@ Utilities that can be limited to specific Media Query breakpoints.
 * `u-lg-afterXofY` - To use at the large Media Query breakpoint.
 
 
-## __size.scss
+## _size.scss
 
 Available classes
 
@@ -156,3 +156,53 @@ Utilities that can be limited to specific Media Query breakpoints.
 * `u-lg-sizeXofY` - To use at the largest Media Query breakpoint.
 
 
+## _space.scss
+
+Available classes
+
+* `u-margin<D><s>` - Margin of size `s` in the direction `D`.
+* `u-padding<D><s>` - Padding of size `s` in direction `D`.
+
+Where direction (`D`) can be:
+
+* `A` - all
+* `T` - top
+* `R` - right
+* `B` - bottom
+* `L` - left
+* `H` - horizontal
+* `V` - vertical
+
+And size (`s`) can be:
+
+* `n` - none
+* `s` - small
+* `m` - medium
+* `l` - large
+
+
+## _state.scss
+
+Available classes
+
+* `u-isActionable` - Style with a `pointer` cursor to indicate an element will trigger an action.
+* `u-isDisabled` - Style with a `default` cursor to indicate no associated action.
+* `u-isDraggable` - Style with a `move` cursor to indicate an element can be dragged.
+* `u-isHidden` - Completely remove an element from the flow and screen readers.
+* `u-isHiddenVisually` - Completely remove an element from the flow but leave available to screen readers.
+* `u-isInvisible` - Hide an element without affecting flow
+* `u-isShown` - Show a hidden element.
+* `u-isVisible` - Make an element visible.
+
+
+## _text.scss
+
+Available classes
+
+* `u-textBreak` - Break strings when their length exceeds the width of their container.
+* `u-textCenter` - Center-align text.
+* `u-textLeft` - Left-align text.
+* `u-textRight` - Right-align text.
+* `u-textInheritColor` - Inherit the ancestor's text color.
+* `u-textNoWrap` - Prevent wrapping at whitespace.
+* `u-textTruncate` - Truncate a single line of text, with ellipsis.
