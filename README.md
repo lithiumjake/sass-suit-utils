@@ -18,7 +18,7 @@ Base styles for web applications. Provides a thin layer on top of
 [Normalize.css](https://github.com/necolas/normalize.css). Removes default
 margins and exposes variables for theming.
 
-## Configurable variables
+#### Configurable variables
 
 * `$background-base`: the application background style.
 * `$color-base`: the root text color.
