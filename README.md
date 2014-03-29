@@ -111,5 +111,48 @@ Utilities that can be limited to specific Media Query breakpoints.
 * `u-sm-beforeXofY` - To use at the small Media Query breakpoint.
 * `u-md-beforeXofY` - To use at the medium Media Query breakpoint.
 * `u-lg-beforeXofY` - To use at the large Media Query breakpoint.
-* 
+
+
+## _after.scss 
+
+ Available classes
+
+* `u-afterXofY` (numerous) - Specify the proportional offset before an object.
+
+`X` must be an integer less than `Y`.
+
+`Y` can be any of the following numbers: 2, 3, 4, 5, 6, 8, 10, 12.
+
+### Plugins
+
+Utilities that can be limited to specific Media Query breakpoints.
+
+* `u-sm-afterXofY` - To use at the smallest Media Query breakpoint.
+* `u-md-afterXofY` - To use at the medium Media Query breakpoint.
+* `u-lg-afterXofY` - To use at the large Media Query breakpoint.
+
+
+## __size.scss
+
+Available classes
+
+* `u-sizeFit` - Make an element shrink wrap its content by floating left.
+* `u-sizeFitAlt` - Make an element shrink wrap its content by floating right.
+* `u-sizeFill` - Make an element fill the remaining space.
+* `u-sizeFillAlt` - An alternative method to make an element fill the remaining space.
+* `u-sizeFull` - Make an element the width of its parent.
+* `u-sizeXofY` (numerous) - Specify the proportional width of an object.
+
+`X` must be an integer less than `Y`.
+
+`Y` can be any of the following numbers: 2, 3, 4, 5, 6, 8, 10, 12.
+
+### Plugins
+
+Utilities that can be limited to specific Media Query breakpoints.
+
+* `u-sm-sizeXofY` - To use at the smallest Media Query breakpoint.
+* `u-md-sizeXofY` - To use at the medium Media Query breakpoint.
+* `u-lg-sizeXofY` - To use at the largest Media Query breakpoint.
+
 
