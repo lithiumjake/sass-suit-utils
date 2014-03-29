@@ -2,7 +2,7 @@
 
 Base.css and all of the SUIT utilities respectfully ported from CSS4 to SASS modules
 
-### SUIT
+## SUIT
 
 SUIT is an HTML/CSS framework for creating loosely coupled UI components, 
 originally created by Nicolas Gallagher
@@ -12,7 +12,7 @@ built using a naming convention inspired by the BEM methodology.
 
 Learn more about SUIT and the utilities it provides at https://github.com/suitcss/suit
 
-### _base.scss
+## _base.scss
 
 Base styles for web applications. Provides a thin layer on top of
 [Normalize.css](https://github.com/necolas/normalize.css). Removes default
