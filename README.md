@@ -36,8 +36,80 @@ A convenient way to include all SASS-SUIT utility modules
 
 ## _display.scss
 
+Available classes:
+
 * `u-inline` - Display inline.
 * `u-inlineBlock` - Display inline-block.
 * `u-block` - Display block.
 * `u-table` - Display table.
 * `u-tableCell` - Display table-cell.
+
+
+## _layout.scss
+
+Available classes:
+
+* `u-cf` - Contain floats (micro clearfix).
+* `u-nbfc` - Create a new block formatting context.
+* `u-nbfcAlt` - Create a new block formatting context (alternative technique).
+* `u-pullLeft` - Float left.
+* `u-pullRight` - Float right.
+
+
+## _link.scss
+
+Available classes:
+
+* `u-linkBlock` - Block-level link with no `text-decoration` for any state.
+
+* `u-linkClean` - A link without no `text-decoration` for any state.
+
+* `u-linkComplex` - Limit a link's interactive `text-decoration` underline to a
+  sub-section of the link text.
+
+    ```html
+    <a class="u-linkComplex" href="{url}">
+      Link complex
+      <span class="u-linkComplexTarget">target</span>
+    </a>
+    ```
+
+* `u-linkPseudo` - Make another interactive element, e.g., `button`, look like
+  a link.
+
+    ```html
+    <button class="u-linkPseudo" type="button">
+      Link-like button
+    </button>
+    ```
+
+variables are set with !default
+
+* `$color-linkPseudo`: the text color to use for `button` when styled like a text link.
+* `$color-hover-linkPseudo`: the text interaction color to use for `button` when styled like a text link.
+
+
+## _offset.scss 
+
+  A convenient way to import both _before.scss and _after.scss
+
+
+## _before.scss
+
+Available classes
+
+* `u-beforeXofY` (numerous) - Specify the proportional offset before an object.
+
+`X` must be an integer less than `Y`.
+
+`Y` can be any of the following numbers: 2, 3, 4, 5, 6, 8, 10, 12.
+
+### Plugins
+
+Utilities that can be limited to specific Media Query breakpoints.
+
+* `u-sm-beforeXofY` - To use at the small Media Query breakpoint.
+* `u-md-beforeXofY` - To use at the medium Media Query breakpoint.
+* `u-lg-beforeXofY` - To use at the large Media Query breakpoint.
+* 
+
