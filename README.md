@@ -20,9 +20,25 @@ margins and exposes variables for theming.
 
 #### Configurable variables
 
+The following variables are set with with !default
+
 * `$background-base`: the application background style.
 * `$color-base`: the root text color.
 * `$font-base`: the root font style.
 * `$link-color-base`: the root link color.
 * `$link-color-hover-base`: the root link interaction (`:hover`, `:focus`,
   `:active`) color.
+
+## _all.scss
+
+A convenient way to include all SASS-SUIT utility modules
+
+
+## _display.scss
+
+* `u-inline` - Display inline.
+* `u-inlineBlock` - Display inline-block.
+* `u-block` - Display block.
+* `u-table` - Display table.
+* `u-tableCell` - Display table-cell.
+* 
